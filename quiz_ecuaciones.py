@@ -149,7 +149,7 @@ PREGUNTAS = [
         ],
         "correctas": ["B) $y = 2 + Ce^{-3x}$"],
         "correcta_display": "B) $y = 2 + Ce^{-3x}$",
-    },,
+    }
 ]
 
 PUNTOS_POR_PREGUNTA = 2.5
