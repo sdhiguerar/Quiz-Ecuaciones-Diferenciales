@@ -154,7 +154,7 @@ PREGUNTAS = [
 PUNTOS_POR_PREGUNTA = 2.5
 ARCHIVO_REGISTROS   = "registros_quiz.csv"
 ARCHIVO_CONTROL     = "control_quiz.csv"
-CLAVE_PROFESOR      = "Profe2026"
+CLAVE_PROFESOR      = "UAN2026"
 
 # ── Utilidades ────────────────────────────────────────────────────────────────
 def cargar_registros():
