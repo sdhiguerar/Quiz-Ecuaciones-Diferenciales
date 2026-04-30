@@ -121,7 +121,7 @@ hr { border-color: #e0e7ff; }
 PREGUNTAS = [
     {
         "enunciado": (
-            "**Pregunta 7.** Considere la ecuación diferencial no homogénea\n\n"
+            "**Pregunta 1.** Considere la ecuación diferencial no homogénea\n\n"
             "$$y'' - 3y' + 2y = e^{x}.$$ \n\n"
             "Usando el método de coeficientes constantes, ¿cuál es la solución general?"
         ),
@@ -136,7 +136,7 @@ PREGUNTAS = [
     },
     {
         "enunciado": (
-            "**Pregunta 8.** Considere la ecuación diferencial\n\n"
+            "**Pregunta 2.** Considere la ecuación diferencial\n\n"
             "$$x^2 y'' - 3x y' + 4y = 0, \\quad x>0,$$\n\n"
             "y se sabe que una solución es $y_1 = x^2$. "
             "Usando reducción de orden, ¿cuál es una segunda solución linealmente independiente $y_2$?"
