@@ -121,33 +121,34 @@ hr { border-color: #e0e7ff; }
 PREGUNTAS = [
     {
         "enunciado": (
-            "**Pregunta 5.** Considere la ecuación diferencial\n\n"
-            "$$y'' + 2y' + 5y = 0.$$ \n\n"
-            "¿Cuál es la solución general?"
+            "**Pregunta 7.** Considere la ecuación diferencial no homogénea\n\n"
+            "$$y'' - 3y' + 2y = e^{x}.$$ \n\n"
+            "Usando el método de coeficientes constantes, ¿cuál es la solución general?"
         ),
         "opciones": [
-            "A) $y = e^{-x}(C_1 \\cos(2x) + C_2 \\sin(2x))$",
-            "B) $y = e^{x}(C_1 \\cos(2x) + C_2 \\sin(2x))$",
-            "C) $y = C_1 e^{-x} + C_2 e^{-5x}$",
-            "D) $y = e^{-x}(C_1 \\cos(x) + C_2 \\sin(x))$",
+            "A) $y = C_1 e^{x} + C_2 e^{2x} + \\frac{1}{2} e^{x}$",
+            "B) $y = C_1 e^{x} + C_2 e^{2x} + x e^{x}$",
+            "C) $y = C_1 e^{-x} + C_2 e^{-2x} + x e^{x}$",
+            "D) $y = C_1 e^{x} + C_2 e^{2x} + e^{x}$",
         ],
-        "correctas": ["A) $y = e^{-x}(C_1 \\cos(2x) + C_2 \\sin(2x))$"],
-        "correcta_display": "A) $y = e^{-x}(C_1 \\cos(2x) + C_2 \\sin(2x))$",
+        "correctas": ["B) $y = C_1 e^{x} + C_2 e^{2x} + x e^{x}$"],
+        "correcta_display": "B) $y = C_1 e^{x} + C_2 e^{2x} + x e^{x}$",
     },
     {
         "enunciado": (
-            "**Pregunta 6.** Considere la ecuación diferencial\n\n"
-            "$$y'' + 4y' + 4y = 0.$$ \n\n"
-            "¿Cuál es la solución general?"
+            "**Pregunta 8.** Considere la ecuación diferencial\n\n"
+            "$$x^2 y'' - 3x y' + 4y = 0, \\quad x>0,$$\n\n"
+            "y se sabe que una solución es $y_1 = x^2$. "
+            "Usando reducción de orden, ¿cuál es una segunda solución linealmente independiente $y_2$?"
         ),
         "opciones": [
-            "A) $y = C_1 e^{-2x} + C_2 e^{-2x}$",
-            "B) $y = C_1 e^{2x} + C_2 e^{-2x}$",
-            "C) $y = (C_1 + C_2 x)e^{-2x}$",
-            "D) $y = C_1 e^{-2x} + C_2 x e^{2x}$",
+            "A) $y_2 = x^2 \\ln x$",
+            "B) $y_2 = x^3$",
+            "C) $y_2 = x \\ln x$",
+            "D) $y_2 = x^2 e^{x}$",
         ],
-        "correctas": ["C) $y = (C_1 + C_2 x)e^{-2x}$"],
-        "correcta_display": "C) $y = (C_1 + C_2 x)e^{-2x}$",
+        "correctas": ["A) $y_2 = x^2 \\ln x$"],
+        "correcta_display": "A) $y_2 = x^2 \\ln x$",
     }
 ]
 
