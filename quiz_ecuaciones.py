@@ -127,7 +127,7 @@ PREGUNTAS = [
         ),
         "opciones": [
             "A) $y = C_1 e^{x} + C_2 e^{2x} + \\frac{1}{2} e^{x}$",
-            "B) $y = C_1 e^{x} + C_2 e^{2x} + x e^{x}$",
+            "B) $y = C_1 e^{x} + C_2 e^{2x} - x e^{x}$",
             "C) $y = C_1 e^{-x} + C_2 e^{-2x} + x e^{x}$",
             "D) $y = C_1 e^{x} + C_2 e^{2x} + e^{x}$",
         ],
@@ -139,7 +139,7 @@ PREGUNTAS = [
             "**Pregunta 2.** Considere la ecuación diferencial\n\n"
             "$$x^2 y'' - 3x y' + 4y = 0, \\quad x>0,$$\n\n"
             "y se sabe que una solución es $y_1 = x^2$. "
-            "Usando reducción de orden, ¿cuál es una segunda solución linealmente independiente $y_2$?"
+            "¿cuál es una segunda solución $y_2$?"
         ),
         "opciones": [
             "A) $y_2 = x^2 \\ln x$",
